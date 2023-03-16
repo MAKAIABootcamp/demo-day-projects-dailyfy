@@ -224,8 +224,19 @@ const Calendar = () => {
         console.log(fechaFormateada); // "2011-07-12"
         //__________________________________
         //aqui empieza mi prueba con al funcion nueva
-        const pruebadiaHecha = new Date(fechaFormateada);
+        const pruebadiaHecha = new Date(`"${fechaFormateada}"`);
+        console.log(pruebadiaHecha)
         const pruebadia1 =pruebadiaHecha.getDay();
+
+        const hbdiu = new Date("2023-03-8");
+        const hfufh = hbdiu.getDay();
+        console.log(hfufh);
+
+        const hbdiu1 = new Date("2023-03-15");
+        const hfufh1 = hbdiu.getDay();
+        console.log(hfufh1);
+
+
         //resultado del día que cae la fecha seleccionada----------------IMPORTANTE
         console.log(pruebadia1);
         //construccion del objeto ---------------------------
@@ -239,7 +250,7 @@ const Calendar = () => {
         //Fin de la construccion del objeto
         //______________________________________________
         //________________________convertir el dia de la semana
-        if (pruebadia1===0) {
+        if (pruebadia1===1) {
             const dataFeeling ={
                 fecha:fechaFormateada,
                 diaDeLaSemana:'lunes',
@@ -247,7 +258,7 @@ const Calendar = () => {
                 feelingI:feelingInformationI[0]
             }
             dispatch(daySendAction(dataFeeling));
-        } else if(pruebadia1===1) {
+        } else if(pruebadia1===2) {
             const dataFeeling ={
                 fecha:fechaFormateada,
                 diaDeLaSemana:'martes',
@@ -255,7 +266,7 @@ const Calendar = () => {
                 feelingI:feelingInformationI[0]
             }
             dispatch(daySendAction(dataFeeling));
-        }else if(pruebadia1===2) {
+        }else if(pruebadia1===3) {
             const dataFeeling ={
                 fecha:fechaFormateada,
                 diaDeLaSemana:'miercoles',
@@ -263,7 +274,7 @@ const Calendar = () => {
                 feelingI:feelingInformationI[0]
             }
             dispatch(daySendAction(dataFeeling));
-        }else if(pruebadia1===3) {
+        }else if(pruebadia1===4) {
             const dataFeeling ={
                 fecha:fechaFormateada,
                 diaDeLaSemana:'jueves',
@@ -271,7 +282,7 @@ const Calendar = () => {
                 feelingI:feelingInformationI[0]
             }
             dispatch(daySendAction(dataFeeling));
-        }else if(pruebadia1===4) {
+        }else if(pruebadia1===5) {
             const dataFeeling ={
                 fecha:fechaFormateada,
                 diaDeLaSemana:'viernes',
@@ -279,7 +290,7 @@ const Calendar = () => {
                 feelingI:feelingInformationI[0]
             }
             dispatch(daySendAction(dataFeeling));
-        }else if(pruebadia1===5) {
+        }else if(pruebadia1===6) {
             const dataFeeling ={
                 fecha:fechaFormateada,
                 diaDeLaSemana:'sabado',
@@ -287,7 +298,7 @@ const Calendar = () => {
                 feelingI:feelingInformationI[0]
             }
             dispatch(daySendAction(dataFeeling));
-        }else if(pruebadia1===6) {
+        }else if(pruebadia1===0) {
             const dataFeeling ={
                 fecha:fechaFormateada,
                 diaDeLaSemana:'domingo',

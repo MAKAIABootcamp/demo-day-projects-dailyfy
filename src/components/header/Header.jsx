@@ -15,7 +15,7 @@ const Header = () =>{
     }
     return(
         <div className="contentHeader">
-            <div onClick={()=>changePageHome()} className="contentHeader-home">HOME</div>
+            {/* <div onClick={()=>changePageHome()} className="contentHeader-home">HOME</div> */}
             <div className="contentHeader-calendar" onClick={()=>changePagecalendar()}>Calendario</div>
             <div className="contentHeader-statistics" onClick={()=>changePagestatistics()}>Statistics</div>
         </div>

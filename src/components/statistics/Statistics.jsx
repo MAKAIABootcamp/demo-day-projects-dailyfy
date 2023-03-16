@@ -43,25 +43,36 @@ const Statistics = () =>{
     console.log(filtradoDiasD.length);
 
         
-    if (filtradoDiasL.length > filtradoDiasM.length && filtradoDiasL.length > filtradoDiasMi.length &&filtradoDiasL.length > filtradoDiasj.length &&filtradoDiasL.length > filtradoDiasV.length &&filtradoDiasL.length > filtradoDiasS &&filtradoDiasL.length > filtradoDiasD) {
+    if (filtradoDiasL.length > filtradoDiasM.length && filtradoDiasL.length > filtradoDiasMi.length &&filtradoDiasL.length > filtradoDiasj.length &&filtradoDiasL.length > filtradoDiasV.length &&filtradoDiasL.length > filtradoDiasS.length &&filtradoDiasL.length > filtradoDiasD.length) {
         pruebilla.unshift("lunes");
-    } else if(filtradoDiasM.length > filtradoDiasL.length &&filtradoDiasM.length > filtradoDiasMi.length &&filtradoDiasM.length > filtradoDiasj.length &&filtradoDiasM.length > filtradoDiasV.length &&filtradoDiasM.length > filtradoDiasS &&filtradoDiasM.length > filtradoDiasD) {
+    } else if(filtradoDiasM.length > filtradoDiasL.length &&filtradoDiasM.length > filtradoDiasMi.length &&filtradoDiasM.length > filtradoDiasj.length &&filtradoDiasM.length > filtradoDiasV.length &&filtradoDiasM.length > filtradoDiasS.length &&filtradoDiasM.length > filtradoDiasD.length) {
         pruebilla.unshift("martes");
-    }else if(filtradoDiasMi.length > filtradoDiasL.length &&filtradoDiasMi.length > filtradoDiasM.length &&filtradoDiasMi.length > filtradoDiasj.length &&filtradoDiasMi.length > filtradoDiasV.length &&filtradoDiasMi.length > filtradoDiasS &&filtradoDiasMi.length > filtradoDiasD) {
+    }else if(filtradoDiasMi.length > filtradoDiasL.length &&filtradoDiasMi.length > filtradoDiasM.length &&filtradoDiasMi.length > filtradoDiasj.length &&filtradoDiasMi.length > filtradoDiasV.length &&filtradoDiasMi.length > filtradoDiasS.length &&filtradoDiasMi.length > filtradoDiasD.length) {
         pruebilla.unshift("miercoles");
-    }else if(filtradoDiasj.length > filtradoDiasM.length &&filtradoDiasj.length > filtradoDiasMi.length &&filtradoDiasj.length > filtradoDiasL.length &&filtradoDiasj.length > filtradoDiasV.length &&filtradoDiasj.length > filtradoDiasS &&filtradoDiasj.length > filtradoDiasD) {
+    }else if(filtradoDiasj.length > filtradoDiasM.length &&filtradoDiasj.length > filtradoDiasMi.length &&filtradoDiasj.length > filtradoDiasL.length &&filtradoDiasj.length > filtradoDiasV.length &&filtradoDiasj.length > filtradoDiasS.length &&filtradoDiasj.length > filtradoDiasD.length) {
         pruebilla.unshift("jueves");
-    }else if(filtradoDiasV.length > filtradoDiasM.length &&filtradoDiasV.length > filtradoDiasMi.length &&filtradoDiasV.length > filtradoDiasj.length &&filtradoDiasV.length > filtradoDiasL.length &&filtradoDiasV.length > filtradoDiasS &&filtradoDiasV.length > filtradoDiasD) {
+    }else if(filtradoDiasV.length > filtradoDiasM.length &&filtradoDiasV.length > filtradoDiasMi.length &&filtradoDiasV.length > filtradoDiasj.length &&filtradoDiasV.length > filtradoDiasL.length &&filtradoDiasV.length > filtradoDiasS.length &&filtradoDiasV.length > filtradoDiasD.length) {
         pruebilla.unshift("viernes");
-    }else if(filtradoDiasS.length > filtradoDiasM.length &&filtradoDiasS.length > filtradoDiasMi.length &&filtradoDiasS.length > filtradoDiasj.length &&filtradoDiasS.length > filtradoDiasV.length &&filtradoDiasS.length > filtradoDiasL &&filtradoDiasS.length > filtradoDiasD) {
+    }else if(filtradoDiasS.length > filtradoDiasM.length &&filtradoDiasS.length > filtradoDiasMi.length &&filtradoDiasS.length > filtradoDiasj.length &&filtradoDiasS.length > filtradoDiasV.length &&filtradoDiasS.length > filtradoDiasL.length &&filtradoDiasS.length > filtradoDiasD.length) {
         pruebilla.unshift("sabado");
-    }else if(filtradoDiasD.length > filtradoDiasM.length &&filtradoDiasD.length > filtradoDiasMi.length &&filtradoDiasD.length > filtradoDiasj.length &&filtradoDiasD.length > filtradoDiasV.length &&filtradoDiasD.length > filtradoDiasS &&filtradoDiasD.length > filtradoDiasL) {
+    }else if(filtradoDiasD.length > filtradoDiasM.length &&filtradoDiasD.length > filtradoDiasMi.length &&filtradoDiasD.length > filtradoDiasj.length &&filtradoDiasD.length > filtradoDiasV.length &&filtradoDiasD.length > filtradoDiasS.length &&filtradoDiasD.length > filtradoDiasL.length) {
         pruebilla.unshift("domingo");
     }else{
         console.log('ninguna de las condiciones se han cumplido')
     }
 
+
+//_______________________try
+// if (filtradoDiasV.length > filtradoDiasL.length) {
+//     console.log("viernes es mayor a martes")
+// } else {
+    
+// }
+// //___________________________end try
+
     }
+
+
     options();
     console.log(pruebilla);
     //fin del procesamiento der datos_________________________________________

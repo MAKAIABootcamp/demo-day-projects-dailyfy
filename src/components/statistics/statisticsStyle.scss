@@ -90,13 +90,15 @@
 .contentDaySmile{
         display: flex;
         justify-content: center;
+        align-content: center;
+        align-self: center;
         align-items: center;
         font-size: 18px;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         border-radius: 150px;
         padding: 10PX;
-        padding: 10px 10px 7px 10px;    
-        width: 30vw;
+        // padding: 10px 10px 7px 10px;    
+        width: 40vw;
         height: 30vh; 
         background-color: #70FACB;
         
@@ -120,6 +122,8 @@
     height: 30px;
 }
 .wordDaySstats{
+    // display: flex;
+    // justify-content: center;
     color: rgb(0, 0, 0);
     font-size: 20px;
   
