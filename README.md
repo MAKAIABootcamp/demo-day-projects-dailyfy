@@ -33,7 +33,7 @@ Para ejecutar Dailify en tu máquina local, sigue estos pasos:
 
 `npm run dev`
 
-6. Abre http://localhost:3000 en tu navegador.
+5. Abre http://localhost:3000 en tu navegador.
 
 # Contribución
 Si deseas contribuir a Dailify, crea un fork del repositorio y realiza tus cambios en una rama separada. Luego, crea un pull request para que podamos revisar tus cambios.
